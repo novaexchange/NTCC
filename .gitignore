@@ -1,0 +1,34 @@
+src/*.exe
+src/neptuneclassic
+src/neptuneclassicd
+src/test_neptuneclassic
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.neptuneclassic
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+neptuneclassic-qt
+NeptuneClassic-Qt.app
+
+# Unit-tests
+Makefile.test
+neptuneclassic-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
